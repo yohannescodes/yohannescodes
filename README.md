@@ -13,13 +13,13 @@
 
 - 👨‍💻 All of my projects are available at [https://yohannesakhaile.wixsite.com/my-site/projects](https://yohannesakhaile.wixsite.com/my-site/projects)
 
-- 📝 I regularly write articles on [https://yohanneswrites.medium.com](https://yohanneswrites.medium.com)
+- 📝 I regularly write articles on [Medium](https://yohanneswrites.medium.com)
 
 - 💬 Ask me about **iOS apps and frameworks development**
 
 - 📫 How to reach me **yohannesakhaile@gmail.com**
 
-- 📄 Know about my experiences [https://yohannesakhaile.wixsite.com/my-site/resume](https://yohannesakhaile.wixsite.com/my-site/resume)
+- 📄 Know about my experiences on [LinkedIn](https://www.linkedin.com/in/yohannes-haile/)
 
 - ⚡ Fun fact **I love making memes**
 
