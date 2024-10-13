@@ -11,8 +11,6 @@
 
 - 👯 I’m looking to collaborate on [Chapa4iOS](https://github.com/yohannescodes/Chapa4iOS)
 
-- 👨‍💻 All of my projects are available at [https://yohannesakhaile.wixsite.com/my-site/projects](https://yohannesakhaile.wixsite.com/my-site/projects)
-
 - 📝 I regularly write articles on [Medium](https://yohanneswrites.medium.com)
 
 - 💬 Ask me about **iOS apps and frameworks development**
