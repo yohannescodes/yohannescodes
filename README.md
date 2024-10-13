@@ -4,7 +4,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=yohannescodes&label=Profile%20views&color=0e75b6&style=flat" alt="yohannescodes" /> <a href="https://linkedin.com/in/yohannes-haile/">
   <img src="https://img.shields.io/badge/https%3A%2F%2Flinkedin.com%2Fin%2Fyohannes-haile%2F?style=flat&logo=swift&logoColor=black&label=Yohannes%20Haile&labelColor=white&color=black" alt="Yohannes Haile LinkedIn Profile" />
-</a> <a href="https://twitter.com/ibyohannes" target="blank"><img src="https://img.shields.io/twitter/follow/ibyohannes?logo=twitter&style=for-the-badge" alt="ibyohannes" /></a> </p>
+</a> </p>
 
 
 - 🌱 I’m currently learning **SwiftUI**
@@ -44,3 +44,4 @@
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=yohannescodes&show_icons=true&locale=en" alt="yohannescodes" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=yohannescodes&" alt="yohannescodes" /></p>
+<p> <a href="https://twitter.com/ibyohannes" target="blank"><img src="https://img.shields.io/twitter/follow/ibyohannes?logo=twitter&style=for-the-badge" alt="ibyohannes" /></a> </p>
