@@ -22,6 +22,11 @@
 
 - ⚡ Fun fact **I love making memes**
 
+# Latest Blog Posts
+
+Here are my latest blog posts from Medium:
+
+<!-- BLOG-POSTS-LIST -->
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
