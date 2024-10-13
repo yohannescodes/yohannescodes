@@ -6,8 +6,6 @@
   <img src="https://img.shields.io/badge/https%3A%2F%2Flinkedin.com%2Fin%2Fyohannes-haile%2F?style=flat&logo=swift&logoColor=black&label=Yohannes%20Haile&labelColor=white&color=black" alt="Yohannes Haile LinkedIn Profile" />
 </a> </p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=yohannescodes" alt="yohannescodes" /></a> </p>
-
 <p align="left"> <a href="https://twitter.com/ibyohannes" target="blank"><img src="https://img.shields.io/twitter/follow/ibyohannes?logo=twitter&style=for-the-badge" alt="ibyohannes" /></a> </p>
 
 - 🌱 I’m currently learning **SwiftUI**
