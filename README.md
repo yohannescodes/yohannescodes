@@ -2,8 +2,9 @@
 
 <h3 align="center"> iOS Software Engineer | Swift (Apps and Frameworks) </h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=yohannescodes&label=Profile%20views&color=0e75b6&style=flat" alt="yohannescodes" /> <a href="https://linkedin.com/in/yohannes-haile/">
-  <img src="https://img.shields.io/badge/https%3A%2F%2Flinkedin.com%2Fin%2Fyohannes-haile%2F?style=flat&logo=swift&logoColor=black&label=Yohannes%20Haile&labelColor=white&color=black" alt="Yohannes Haile LinkedIn Profile" />
+<p align="left"> 
+<img src="https://img.shields.io/badge/https%3A%2F%2Flinkedin.com%2Fin%2Fyohannes-haile%2F?style=flat&logo=swift&logoColor=black&label=Yohannes%20Haile&labelColor=white&color=black" alt="Yohannes Haile LinkedIn Profile" />
+<img src="https://komarev.com/ghpvc/?username=yohannescodes&label=Profile%20views&color=0e75b6&style=flat" alt="yohannescodes" /> <a href="https://linkedin.com/in/yohannes-haile/">
 </a> </p>
 
 
