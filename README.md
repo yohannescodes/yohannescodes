@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Yohannes Haile</h1>
-<h3 align="center">A passionate iOS developer from Ethiopia</h3>
+<h3 align="center">A passionate iOS developer from Ethiopia 🇪🇹 </h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=yohannescodes&label=Profile%20views&color=0e75b6&style=flat" alt="yohannescodes" /> </p>
 
