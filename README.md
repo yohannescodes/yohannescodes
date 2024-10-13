@@ -1,11 +1,10 @@
 <h1 align="center">Hi 👋, I'm Yohannes Haile</h1>
 
 <h3 align="center"> iOS Software Engineer | Swift (Apps and Frameworks) </h3>
-<a href="https://linkedin.com/in/yohannes-haile/">
-  <img src="https://img.shields.io/badge/https%3A%2F%2Flinkedin.com%2Fin%2Fyohannes-haile%2F?style=flat&logo=apple&logoColor=black&label=Yohannes%20Haile&labelColor=white&color=black" alt="Yohannes Haile LinkedIn Profile" />
-</a>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=yohannescodes&label=Profile%20views&color=0e75b6&style=flat" alt="yohannescodes" /> </p>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=yohannescodes&label=Profile%20views&color=0e75b6&style=flat" alt="yohannescodes" /> <a href="https://linkedin.com/in/yohannes-haile/">
+  <img src="https://img.shields.io/badge/https%3A%2F%2Flinkedin.com%2Fin%2Fyohannes-haile%2F?style=flat&logo=swift&logoColor=black&label=Yohannes%20Haile&labelColor=white&color=black" alt="Yohannes Haile LinkedIn Profile" />
+</a> </p>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=yohannescodes" alt="yohannescodes" /></a> </p>
 
