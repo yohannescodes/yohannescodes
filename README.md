@@ -26,7 +26,9 @@
 
 Here are my latest blog posts from Medium:
 
-<!-- BLOG-POSTS-LIST -->
+<!-- BLOG-POST-LIST:START -->
+
+<!-- BLOG-POST-LIST:END -->
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
