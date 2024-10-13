@@ -33,7 +33,7 @@
 <a href="https://linkedin.com/in/yohannes-haile" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="yohannes-haile" height="30" width="40" /></a>
 <a href="https://instagram.com/yohannes.codes" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="yohannes.codes" height="30" width="40" /></a>
 <a href="https://medium.com/@yohanneswrites" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="@yohanneswrites" height="30" width="40" /></a>
-<a href="https://www.youtube.com/c/@ibyohannes" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="@ibyohannes" height="30" width="40" /></a>
+<a href="https://www.youtube.com/@IBYohannes" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="@ibyohannes" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
