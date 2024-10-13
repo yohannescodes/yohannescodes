@@ -1,5 +1,9 @@
 <h1 align="center">Hi 👋, I'm Yohannes Haile</h1>
-[![Yohannes Haile](https://img.shields.io/badge/https%3A%2F%2Flinkedin.com%2Fin%2Fyohannes-haile%2F?style=flat&logo=apple&logoColor=black&label=Yohannes%20Haile&labelColor=white&color=black)](https://linkedin.com/in/yohannes-haile/)
+
+<a href="https://linkedin.com/in/yohannes-haile/">
+  <img src="https://img.shields.io/badge/https%3A%2F%2Flinkedin.com%2Fin%2Fyohannes-haile%2F?style=flat&logo=apple&logoColor=black&label=Yohannes%20Haile&labelColor=white&color=black" alt="Yohannes Haile LinkedIn Profile" />
+</a>
+
 
 <h3 align="center">A passionate iOS developer from Ethiopia 🇪🇹 </h3>
 
