@@ -5,7 +5,8 @@
 <p align="left"> 
 <img src="https://img.shields.io/badge/https%3A%2F%2Flinkedin.com%2Fin%2Fyohannes-haile%2F?style=flat&logo=swift&logoColor=black&label=Yohannes%20Haile&labelColor=white&color=black" alt="Yohannes Haile LinkedIn Profile" />
 <img src="https://komarev.com/ghpvc/?username=yohannescodes&label=Profile%20views&color=0e75b6&style=flat" alt="yohannescodes" /> <a href="https://linkedin.com/in/yohannes-haile/">
-</a> </p>
+</a> <a href="https://notebooklm.google.com/notebook/42ce0825-4f7c-40d8-b98c-8f93b5dbe39f/audio" target="_blank">🎧 Listen to my Resume Overview</a>
+</p>
 
 
 - 🌱 I’m currently learning **SwiftUI**
