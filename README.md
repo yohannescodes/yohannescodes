@@ -11,7 +11,7 @@
 
 - 🌱 I’m currently learning **SwiftUI**
 
-- 👯 I’m looking to collaborate on [Chapa4iOS](https://github.com/yohannescodes/Chapa4iOS)
+- 👯 I’m looking to collaborate on [Chapa4iOS](https://github.com/yohannescodes/Chapa4iOS) and [MyLomi](https://github.com/yohannescodes/MyLomi.git)
 
 - 📝 I regularly write articles on [Medium](https://yohanneswrites.medium.com)
 
