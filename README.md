@@ -28,10 +28,10 @@
 Here are my latest blog posts from Medium:
 
 <!-- BLOG-POST-LIST:START -->
+- [Everything you should know about MyLomi](https://yohanneswrites.medium.com/everything-you-should-know-about-mylomi-3b0ca70461e4?source=rss-3abccf3ff6f9------2)
 - [DM 101: FUNDAMENTALS OF DIRECT MESSAGE FOR CAREER BUILDING JOURNEY](https://yohanneswrites.medium.com/dm-101-fundamentals-of-direct-message-for-career-building-journey-1fd3b508bb00?source=rss-3abccf3ff6f9------2)
 - [How to Become a Bipolar Rockstar](https://yohanneswrites.medium.com/how-to-become-a-bipolar-rockstar-95b41c4b7d5f?source=rss-3abccf3ff6f9------2)
 - [From Engineer to Project Manager](https://medium.com/nerd-for-tech/from-engineer-to-project-manager-navigating-leadership-in-tech-with-empathy-and-humor-ee7ab14a70d2?source=rss-3abccf3ff6f9------2)
-- [The Dark Side of Remote Work](https://medium.com/nerd-for-tech/exposed-the-dark-side-of-remote-work-tales-of-struggle-and-distraction-revealed-ace244c70118?source=rss-3abccf3ff6f9------2)
 <!-- BLOG-POST-LIST:END -->
 
 <h3 align="left">Connect with me:</h3>
