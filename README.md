@@ -9,7 +9,7 @@
 
 - 🌱 I’m currently learning **SwiftUI**
 
-- 👯 I’m looking to collaborate on [Chapa4iOS](https://github.com/yohannescodes/Chapa4iOS)
+- 👯 I’m looking to collaborate on [ClarioKit](https://github.com/yohannescodes/ClarioKit)
 
 - 💬 Ask me about **iOS apps and frameworks development**
 
