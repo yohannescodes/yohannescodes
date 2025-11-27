@@ -5,23 +5,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Yohannes Writes | iOS Engineering Notes by Yohannes Haile</title>
   <meta name="description" content="Technical notes and essays on Swift, iOS engineering, and SDK design by Yohannes Haile." />
-  <link rel="canonical" href="https://www.yohanenswrites.com/" />
+  <link rel="canonical" href="https://www.yohanneswrites.com/" />
   <meta name="robots" content="index, follow" />
 
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://www.yohanenswrites.com/" />
+  <meta property="og:url" content="https://www.yohanneswrites.com/" />
   <meta property="og:title" content="Yohannes Writes | iOS Engineering Notes" />
   <meta property="og:description" content="Articles on SwiftUI performance, Swift package distribution, and growth-minded iOS execution." />
-  <meta property="og:image" content="https://www.yohanenswrites.com/og-image.jpg" />
+  <meta property="og:image" content="https://www.yohanneswrites.com/og-image.jpg" />
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Yohannes Writes" />
   <meta name="twitter:description" content="iOS engineering notes and case studies from Yohannes Haile." />
-  <meta name="twitter:image" content="https://www.yohanenswrites.com/og-image.jpg" />
+  <meta name="twitter:image" content="https://www.yohanneswrites.com/og-image.jpg" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="../assets/styles.css" />
 
   <script type="application/ld+json">
@@ -29,7 +29,7 @@
     "@context": "https://schema.org",
     "@type": "Blog",
     "name": "Yohannes Writes",
-    "url": "https://www.yohanenswrites.com/",
+    "url": "https://www.yohanneswrites.com/",
     "about": "iOS engineering, Swift, and SDK design articles by Yohannes Haile",
     "publisher": {
       "@type": "Person",
@@ -44,14 +44,18 @@
     "name": "Yohannes Haile",
     "url": "https://www.yohannescodes.com/",
     "sameAs": [
-      "https://www.linkedin.com/in/yohannes-haile/",
-      "https://github.com/yohannescodes"
+      "https://www.linkedin.com/in/yohannes-haile/"
     ]
   }
   </script>
 </head>
 <body>
   <header>
+    <div class="social-bar" aria-label="Social links">
+      <div class="social-links">
+        <a href="https://linkedin.com/in/yohannes-haile" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
     <nav aria-label="Primary navigation">
       <div class="brand">
         <span>✏️</span>
@@ -70,48 +74,110 @@
     <article>
       <p class="lede">iOS engineering notes, Swift package lessons, and growth-minded experiments from Yohannes Haile.</p>
 
-      <h1>Recent highlights</h1>
-      <div class="meta">
-        <span>Swift</span>
-        <span>SwiftUI</span>
-        <span>SDK design</span>
-        <span>Ethiopia</span>
+      <h1>Latest posts from yohanneswrites.com</h1>
+      <section class="card writing-card featured-writing">
+        <h2>Featured writings</h2>
+        <ul class="featured-links">
+          <li>
+            <a href="https://www.yohanneswrites.com/blog/why-you-should-date-a-tech-bro" target="_blank" rel="noopener">
+              Why you should date a tech bro
+            </a>
+            <span class="meta-note">Relationship lessons from building alongside ambitious engineers.</span>
+          </li>
+          <li>
+            <a href="https://www.yohanneswrites.com/blog/think-like-a-carpenter-act-like-an-ios-developer" target="_blank" rel="noopener">
+              Think like a carpenter, act like an iOS developer
+            </a>
+            <span class="meta-note">Practical craft principles translated into Swift delivery habits.</span>
+          </li>
+        </ul>
+      </section>
+      <div class="writing-feed" id="blog-feed" aria-live="polite">
+        <p class="loading">Fetching posts…</p>
       </div>
-
-      <section aria-labelledby="swiftui-lists">
-        <h2 id="swiftui-lists">Building performant SwiftUI lists</h2>
-        <p>Profiling list-heavy experiences using Instruments, eliminating layout thrash, and structuring data diffing for smooth scrolling.</p>
-        <ul>
-          <li>Lazy stacks and cell reuse patterns that avoid unnecessary recomposition.</li>
-          <li>Measuring frame drops with Instruments’ Core Animation tools.</li>
-          <li>Guidelines for infinite feeds and pagination without jank.</li>
-        </ul>
-      </section>
-
-      <section aria-labelledby="spm-confidence">
-        <h2 id="spm-confidence">Distributing Swift packages with confidence</h2>
-        <p>Release checklists for semantic versioning, automated docs, and compatibility matrices that keep integrators happy.</p>
-        <ul>
-          <li>Tagging and release notes that communicate breaking changes clearly.</li>
-          <li>Generating DocC output and hosting it alongside package versions.</li>
-          <li>Building demo apps for hands-on validation.</li>
-        </ul>
-      </section>
-
-      <section aria-labelledby="onboarding-design">
-        <h2 id="onboarding-design">Designing onboarding that activates users</h2>
-        <p>Experiments, copywriting, and localization tactics that improve activation in Ethiopia and other emerging markets.</p>
-        <ul>
-          <li>Progressive disclosure and reducing steps to first value.</li>
-          <li>Using analytics to identify drop-off and trigger targeted nudges.</li>
-          <li>Localizing key flows for Amharic-speaking audiences.</li>
-        </ul>
-      </section>
     </article>
   </main>
 
   <footer id="contact">
     <p>Written by Yohannes Haile — connect on <a href="https://www.linkedin.com/in/yohannes-haile/" target="_blank" rel="noopener">LinkedIn</a> or email <a href="mailto:yohannesakhaile@gmail.com">yohannesakhaile@gmail.com</a>.</p>
   </footer>
+
+  <script>
+    (function () {
+      const feedContainer = document.getElementById("blog-feed");
+      const featuredLinks = [
+        "https://www.yohanneswrites.com/blog/why-you-should-date-a-tech-bro",
+        "https://www.yohanneswrites.com/blog/think-like-a-carpenter-act-like-an-ios-developer",
+      ];
+
+      function renderPosts(posts) {
+        if (!posts.length) {
+          feedContainer.innerHTML = `
+            <article class="post">
+              <h2>More writing on yohanneswrites.com</h2>
+              <p>Explore the archive on yohanneswrites.com for the full catalog of essays.</p>
+              <div class="meta">
+                <a href="https://www.yohanneswrites.com/" target="_blank" rel="noopener">Visit the blog</a>
+              </div>
+            </article>
+          `;
+          return;
+        }
+
+        feedContainer.innerHTML = posts
+          .map(
+            (post) => `
+              <article class="post">
+                <div class="post-meta">
+                  <span class="pill-label">${post.category || "iOS"}</span>
+                  <span>${post.date || "New"}</span>
+                </div>
+                <h2><a href="${post.link}" target="_blank" rel="noopener">${post.title}</a></h2>
+                <p>${post.description}</p>
+              </article>
+            `
+          )
+          .join("");
+      }
+
+      function renderFallback() {
+        renderPosts([]);
+      }
+
+      async function fetchPosts() {
+        try {
+          const response = await fetch("https://yohanneswrites.com/rss.xml");
+          if (!response.ok) throw new Error("Network response was not ok");
+          const text = await response.text();
+          const parser = new DOMParser();
+          const xml = parser.parseFromString(text, "text/xml");
+          const items = Array.from(xml.querySelectorAll("item")).slice(0, 5);
+
+          if (!items.length) {
+            renderFallback();
+            return;
+          }
+
+        const posts = items
+          .map((item) => ({
+            title: item.querySelector("title")?.textContent?.trim() || "Latest from Yohannes",
+            link: item.querySelector("link")?.textContent?.trim() || "https://yohanneswrites.com",
+            category: item.querySelector("category")?.textContent?.trim() || "Writing",
+            date: item.querySelector("pubDate")?.textContent?.split(" ").slice(0, 4).join(" ") || "New",
+            description:
+              item.querySelector("description")?.textContent?.replace(/<[^>]+>/g, "")?.trim() ||
+              "Latest notes on iOS engineering and product growth.",
+          }))
+          .filter((post) => !featuredLinks.includes(post.link));
+
+          renderPosts(posts);
+        } catch (error) {
+          renderFallback();
+        }
+      }
+
+      fetchPosts();
+    })();
+  </script>
 </body>
 </html>
