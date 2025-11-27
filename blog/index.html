@@ -111,8 +111,25 @@
   <script>
     (function () {
       const feedContainer = document.getElementById("blog-feed");
+      const featuredLinks = [
+        "https://www.yohanneswrites.com/blog/why-you-should-date-a-tech-bro",
+        "https://www.yohanneswrites.com/blog/think-like-a-carpenter-act-like-an-ios-developer",
+      ];
 
       function renderPosts(posts) {
+        if (!posts.length) {
+          feedContainer.innerHTML = `
+            <article class="post">
+              <h2>More writing on yohanneswrites.com</h2>
+              <p>New articles will appear here when they’re published. Explore the archive in the meantime.</p>
+              <div class="meta">
+                <a href="https://www.yohanneswrites.com/" target="_blank" rel="noopener">Visit the blog</a>
+              </div>
+            </article>
+          `;
+          return;
+        }
+
         feedContainer.innerHTML = posts
           .map(
             (post) => `
@@ -130,22 +147,7 @@
       }
 
       function renderFallback() {
-        renderPosts([
-          {
-            title: "Why you should date a tech bro",
-            link: "https://www.yohanneswrites.com/blog/why-you-should-date-a-tech-bro",
-            category: "Essay",
-            date: "Recent",
-            description: "Relationship lessons from building alongside ambitious engineers.",
-          },
-          {
-            title: "Think like a carpenter, act like an iOS developer",
-            link: "https://www.yohanneswrites.com/blog/think-like-a-carpenter-act-like-an-ios-developer",
-            category: "Practice",
-            date: "Recent",
-            description: "Practical craft principles translated into Swift delivery habits.",
-          },
-        ]);
+        renderPosts([]);
       }
 
       async function fetchPosts() {
@@ -162,7 +164,8 @@
             return;
           }
 
-          const posts = items.map((item) => ({
+        const posts = items
+          .map((item) => ({
             title: item.querySelector("title")?.textContent?.trim() || "Latest from Yohannes",
             link: item.querySelector("link")?.textContent?.trim() || "https://yohanneswrites.com",
             category: item.querySelector("category")?.textContent?.trim() || "Writing",
@@ -170,7 +173,8 @@
             description:
               item.querySelector("description")?.textContent?.replace(/<[^>]+>/g, "")?.trim() ||
               "Latest notes on iOS engineering and product growth.",
-          }));
+          }))
+          .filter((post) => !featuredLinks.includes(post.link));
 
           renderPosts(posts);
         } catch (error) {

@@ -225,49 +225,52 @@
     <p>Yohannes Haile — iOS Software Engineer crafting Swift apps, SDKs, and growth-friendly experiences from Ethiopia.</p>
   </footer>
 
-  <script>
-    (function () {
-      const feedContainer = document.getElementById("writing-feed");
+    <script>
+      (function () {
+        const feedContainer = document.getElementById("writing-feed");
+        const featuredLinks = [
+          "https://www.yohanneswrites.com/blog/why-you-should-date-a-tech-bro",
+          "https://www.yohanneswrites.com/blog/think-like-a-carpenter-act-like-an-ios-developer",
+        ];
 
-      function renderPosts(posts) {
-        if (!feedContainer) return;
-        feedContainer.innerHTML = posts
-          .map(
-            (post) => `
+        function renderPosts(posts) {
+          if (!feedContainer) return;
+
+          if (!posts.length) {
+            feedContainer.innerHTML = `
               <article class="post">
-                <div class="post-meta">
-                  <span class="pill-label">${post.category || "iOS"}</span>
-                  <span>${post.date || "New"}</span>
-                </div>
-                <h3><a href="${post.link}" target="_blank" rel="noopener">${post.title}</a></h3>
-                <p>${post.description}</p>
+                <h3>More writing on yohanneswrites.com</h3>
+                <p>New posts will appear here once they land on the blog. Visit the archive to read more.</p>
                 <div class="meta">
-                  <a href="${post.link}" target="_blank" rel="noopener">Read on yohanneswrites.com</a>
+                  <a href="https://www.yohanneswrites.com/" target="_blank" rel="noopener">Visit the blog</a>
                 </div>
               </article>
-            `
-          )
-          .join("");
-      }
+            `;
+            return;
+          }
 
-      function renderFallback() {
-        renderPosts([
-          {
-            title: "Why you should date a tech bro",
-            link: "https://www.yohanneswrites.com/blog/why-you-should-date-a-tech-bro",
-            category: "Essay",
-            date: "Recent",
-            description: "Reflections on ambition, focus, and partnership with builders.",
-          },
-          {
-            title: "Think like a carpenter, act like an iOS developer",
-            link: "https://www.yohanneswrites.com/blog/think-like-a-carpenter-act-like-an-ios-developer",
-            category: "Practice",
-            date: "Recent",
-            description: "Craft values, constraints, and iterative delivery through a maker’s lens.",
-          },
-        ]);
-      }
+          feedContainer.innerHTML = posts
+            .map(
+              (post) => `
+                <article class="post">
+                  <div class="post-meta">
+                    <span class="pill-label">${post.category || "iOS"}</span>
+                    <span>${post.date || "New"}</span>
+                  </div>
+                  <h3><a href="${post.link}" target="_blank" rel="noopener">${post.title}</a></h3>
+                  <p>${post.description}</p>
+                  <div class="meta">
+                    <a href="${post.link}" target="_blank" rel="noopener">Read on yohanneswrites.com</a>
+                  </div>
+                </article>
+              `
+            )
+            .join("");
+        }
+
+        function renderFallback() {
+          renderPosts([]);
+        }
 
       async function fetchPosts() {
         try {
@@ -283,15 +286,17 @@
             return;
           }
 
-          const posts = items.map((item) => ({
-            title: item.querySelector("title")?.textContent?.trim() || "Latest from Yohannes",
-            link: item.querySelector("link")?.textContent?.trim() || "https://yohanneswrites.com",
-            category: item.querySelector("category")?.textContent?.trim() || "Writing",
-            date: item.querySelector("pubDate")?.textContent?.split(" ").slice(0, 4).join(" ") || "New",
-            description:
-              item.querySelector("description")?.textContent?.replace(/<[^>]+>/g, "")?.trim() ||
-              "Latest notes on iOS engineering and product growth.",
-          }));
+          const posts = items
+            .map((item) => ({
+              title: item.querySelector("title")?.textContent?.trim() || "Latest from Yohannes",
+              link: item.querySelector("link")?.textContent?.trim() || "https://yohanneswrites.com",
+              category: item.querySelector("category")?.textContent?.trim() || "Writing",
+              date: item.querySelector("pubDate")?.textContent?.split(" ").slice(0, 4).join(" ") || "New",
+              description:
+                item.querySelector("description")?.textContent?.replace(/<[^>]+>/g, "")?.trim() ||
+                "Latest notes on iOS engineering and product growth.",
+            }))
+            .filter((post) => !featuredLinks.includes(post.link));
 
           renderPosts(posts);
         } catch (error) {
