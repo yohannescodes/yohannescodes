@@ -132,6 +132,24 @@
     <section class="grid" id="portfolio" aria-labelledby="portfolio-title">
       <div class="section-title" id="portfolio-title"><span></span>Featured work</div>
       <article class="card">
+        <h3>Ledgerly</h3>
+        <p>Offline-first personal finance and ledger app with SwiftUI charts, secure storage, and real-time sync cues.</p>
+        <div class="meta">
+          <span>SwiftUI</span>
+          <span>Finance tooling</span>
+          <a href="https://github.com/yohannescodes/ledgerly" target="_blank" rel="noopener">View on GitHub</a>
+        </div>
+      </article>
+      <article class="card">
+        <h3>Chapa4iOS</h3>
+        <p>Native iOS SDK wrapper for Chapa payments with streamlined checkout flows, test harnesses, and sample integrations.</p>
+        <div class="meta">
+          <span>SDK</span>
+          <span>Payments</span>
+          <a href="https://github.com/yohannescodes/Chapa4iOS" target="_blank" rel="noopener">View on GitHub</a>
+        </div>
+      </article>
+      <article class="card">
         <h3>ClarioKit</h3>
         <p>Open-source Swift package that accelerates onboarding flows with reusable UI components and state management.</p>
         <div class="meta">
@@ -160,6 +178,23 @@
 
     <section class="grid" id="writing" aria-labelledby="writing-title">
       <div class="section-title" id="writing-title"><span></span>Recent writing</div>
+      <article class="card writing-card featured-writing">
+        <h3>Featured essays</h3>
+        <ul class="featured-links">
+          <li>
+            <a href="https://www.yohanneswrites.com/blog/why-you-should-date-a-tech-bro" target="_blank" rel="noopener">
+              Why you should date a tech bro
+            </a>
+            <span class="meta-note">Reflections on ambition, focus, and partnership with builders.</span>
+          </li>
+          <li>
+            <a href="https://www.yohanneswrites.com/blog/think-like-a-carpenter-act-like-an-ios-developer" target="_blank" rel="noopener">
+              Think like a carpenter, act like an iOS developer
+            </a>
+            <span class="meta-note">Craft values, constraints, and iterative delivery through a maker’s lens.</span>
+          </li>
+        </ul>
+      </article>
       <div class="card writing-card" aria-live="polite">
         <div class="writing-feed" id="writing-feed">
           <p class="loading">Fetching the latest posts from yohanneswrites.com…</p>
@@ -224,25 +259,18 @@
       function renderFallback() {
         renderPosts([
           {
-            title: "Building performant SwiftUI lists",
-            link: "https://yohanneswrites.com",
-            category: "iOS Performance",
+            title: "Why you should date a tech bro",
+            link: "https://www.yohanneswrites.com/blog/why-you-should-date-a-tech-bro",
+            category: "Essay",
             date: "Recent",
-            description: "Profiling list-heavy experiences with Instruments, diffing, and lazy stacks.",
+            description: "Reflections on ambition, focus, and partnership with builders.",
           },
           {
-            title: "Distributing Swift packages with confidence",
-            link: "https://yohanneswrites.com",
-            category: "Swift Packages",
+            title: "Think like a carpenter, act like an iOS developer",
+            link: "https://www.yohanneswrites.com/blog/think-like-a-carpenter-act-like-an-ios-developer",
+            category: "Practice",
             date: "Recent",
-            description: "Release checklists for semantic versioning, automated docs, and compatibility matrices.",
-          },
-          {
-            title: "Designing onboarding that activates users",
-            link: "https://yohanneswrites.com",
-            category: "Growth",
-            date: "Recent",
-            description: "Copy, disclosure, and experiments that improve activation for consumer apps.",
+            description: "Craft values, constraints, and iterative delivery through a maker’s lens.",
           },
         ]);
       }

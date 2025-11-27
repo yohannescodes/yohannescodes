@@ -71,6 +71,23 @@
       <p class="lede">iOS engineering notes, Swift package lessons, and growth-minded experiments from Yohannes Haile.</p>
 
       <h1>Latest posts from yohanneswrites.com</h1>
+      <section class="card writing-card featured-writing">
+        <h2>Featured essays</h2>
+        <ul class="featured-links">
+          <li>
+            <a href="https://www.yohanneswrites.com/blog/why-you-should-date-a-tech-bro" target="_blank" rel="noopener">
+              Why you should date a tech bro
+            </a>
+            <span class="meta-note">Relationship lessons from building alongside ambitious engineers.</span>
+          </li>
+          <li>
+            <a href="https://www.yohanneswrites.com/blog/think-like-a-carpenter-act-like-an-ios-developer" target="_blank" rel="noopener">
+              Think like a carpenter, act like an iOS developer
+            </a>
+            <span class="meta-note">Practical craft principles translated into Swift delivery habits.</span>
+          </li>
+        </ul>
+      </section>
       <div class="writing-feed" id="blog-feed" aria-live="polite">
         <p class="loading">Fetching posts…</p>
       </div>
@@ -105,25 +122,18 @@
       function renderFallback() {
         renderPosts([
           {
-            title: "Building performant SwiftUI lists",
-            link: "https://yohanneswrites.com",
-            category: "iOS Performance",
+            title: "Why you should date a tech bro",
+            link: "https://www.yohanneswrites.com/blog/why-you-should-date-a-tech-bro",
+            category: "Essay",
             date: "Recent",
-            description: "Profiling list-heavy experiences with Instruments, diffing, and lazy stacks.",
+            description: "Relationship lessons from building alongside ambitious engineers.",
           },
           {
-            title: "Distributing Swift packages with confidence",
-            link: "https://yohanneswrites.com",
-            category: "Swift Packages",
+            title: "Think like a carpenter, act like an iOS developer",
+            link: "https://www.yohanneswrites.com/blog/think-like-a-carpenter-act-like-an-ios-developer",
+            category: "Practice",
             date: "Recent",
-            description: "Release checklists for semantic versioning, automated docs, and compatibility matrices.",
-          },
-          {
-            title: "Designing onboarding that activates users",
-            link: "https://yohanneswrites.com",
-            category: "Growth",
-            date: "Recent",
-            description: "Copy, disclosure, and experiments that improve activation for consumer apps.",
+            description: "Practical craft principles translated into Swift delivery habits.",
           },
         ]);
       }

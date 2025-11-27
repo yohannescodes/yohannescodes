@@ -299,6 +299,35 @@ nav li a:focus-visible {
   grid-column: 1 / -1;
 }
 
+.featured-writing {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.03));
+}
+
+.featured-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 12px;
+}
+
+.featured-links li {
+  display: grid;
+  gap: 4px;
+}
+
+.featured-links a {
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-color: rgba(255, 255, 255, 0.45);
+  text-underline-offset: 4px;
+}
+
+.featured-links .meta-note {
+  color: var(--muted);
+  font-size: 14px;
+}
+
 .writing-feed {
   display: grid;
   gap: 18px;
