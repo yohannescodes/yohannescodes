@@ -21,7 +21,7 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="assets/styles.css" />
 
   <script type="application/ld+json">
@@ -52,8 +52,7 @@
     "url": "https://www.yohannescodes.com/",
     "sameAs": [
       "https://www.linkedin.com/in/yohannes-haile/",
-      "https://github.com/yohannescodes",
-      "https://www.yohanenswrites.com/"
+      "https://www.yohanneswrites.com/"
     ],
     "description": "iOS engineer building Swift apps, SDKs, and consumer experiences for companies in Ethiopia and beyond.",
     "knowsAbout": ["Swift", "SwiftUI", "iOS development", "SDK design", "Mobile performance"]
@@ -62,6 +61,11 @@
 </head>
 <body>
   <header>
+    <div class="social-bar" aria-label="Social links">
+      <div class="social-links">
+        <a href="https://linkedin.com/in/yohannes-haile" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
     <nav aria-label="Primary navigation">
       <div class="brand" aria-label="Site identity">
         <span></span>
@@ -79,16 +83,18 @@
 
   <main>
     <section class="hero" id="top">
-      <div class="badge">iOS apps · SDKs · Growth-focused experiences</div>
-      <h1>Yohannes Haile – iOS Engineer crafting polished apps and frameworks in Ethiopia</h1>
-      <p class="lede">I build and ship consumer-facing iPhone applications, production-ready Swift packages, and SDKs that help teams move faster. My work has supported App Store launches, retention improvements, and integrations for fast-moving companies.</p>
-      <div class="cta-row">
-        <a class="button" href="#contact">Book a project</a>
-        <a class="button secondary" href="https://www.yohanenswrites.com" rel="noopener" target="_blank">Read my blog</a>
-        <div class="meta" aria-label="Credibility">
-          <span>4+ years shipping iOS products</span>
-          <span>Swift &amp; SwiftUI specialist</span>
-          <span>Available for Ethiopia-based teams</span>
+      <div class="panel">
+        <div class="badge">iOS apps · SDKs · Growth-focused experiences</div>
+        <h1>Yohannes Haile – iOS Engineer crafting polished apps and frameworks in Ethiopia</h1>
+        <p class="lede">I build and ship consumer-facing iPhone applications, production-ready Swift packages, and SDKs that help teams move faster. My work has supported App Store launches, retention improvements, and integrations for fast-moving companies.</p>
+        <div class="cta-row">
+          <a class="button" href="https://linkedin.com/in/yohannes-haile" rel="noopener" target="_blank">Book a project</a>
+          <a class="button secondary" href="https://www.yohanneswrites.com" rel="noopener" target="_blank">Read my blog</a>
+          <div class="meta" aria-label="Credibility">
+            <span>4+ years shipping iOS products</span>
+            <span>Swift &amp; SwiftUI specialist</span>
+            <span>Available for Ethiopia-based teams</span>
+          </div>
         </div>
       </div>
     </section>
@@ -130,58 +136,58 @@
     <section class="grid" id="portfolio" aria-labelledby="portfolio-title">
       <div class="section-title" id="portfolio-title"><span></span>Featured work</div>
       <article class="card">
+        <h3>Ledgerly</h3>
+        <p>Offline-first personal finance and ledger app with SwiftUI charts, secure storage, and real-time sync cues.</p>
+        <div class="meta">
+          <span>SwiftUI</span>
+          <span>Finance tooling</span>
+          <a href="https://github.com/yohannescodes/ledgerly" target="_blank" rel="noopener">View on GitHub</a>
+        </div>
+      </article>
+      <article class="card">
+        <h3>Chapa4iOS</h3>
+        <p>Native iOS SDK wrapper for Chapa payments with streamlined checkout flows, test harnesses, and sample integrations.</p>
+        <div class="meta">
+          <span>SDK</span>
+          <span>Payments</span>
+          <a href="https://github.com/yohannescodes/Chapa4iOS" target="_blank" rel="noopener">View on GitHub</a>
+        </div>
+      </article>
+      <article class="card">
         <h3>ClarioKit</h3>
-        <p>Open-source Swift package that accelerates onboarding flows with reusable UI components and state management.</p>
+        <p>Swift package for intelligent document understanding—summaries, key points, translation, and structured parsing across plain text, PDF, and .docx—with cloud LLMs and on-device Foundation Models (iOS 26+).</p>
         <div class="meta">
           <span>Swift Package</span>
           <span>Public repo</span>
           <a href="https://github.com/yohannescodes/ClarioKit" target="_blank" rel="noopener">View on GitHub</a>
         </div>
       </article>
-      <article class="card">
-        <h3>Consumer fintech app</h3>
-        <p>Led iOS rebuild to modern SwiftUI patterns, reducing crash-free issues and improving retention with targeted experiments.</p>
-        <div class="meta">
-          <span>SwiftUI</span>
-          <span>Analytics-ready</span>
-        </div>
-      </article>
-      <article class="card">
-        <h3>Creator tools SDK</h3>
-        <p>Shipped embeddable SDK for creators to integrate media uploads, billing, and audience insights with minimal setup.</p>
-        <div class="meta">
-          <span>SDK</span>
-          <span>SPM/CocoaPods</span>
-        </div>
-      </article>
     </section>
 
     <section class="grid" id="writing" aria-labelledby="writing-title">
       <div class="section-title" id="writing-title"><span></span>Recent writing</div>
-      <article class="card">
-        <h3>Building performant SwiftUI lists</h3>
-        <p>Profiling and optimizing list-heavy screens with Instruments, diffing, and lazy stacks.</p>
-        <div class="meta">
-          <span>iOS Performance</span>
-          <a href="https://www.yohanenswrites.com" target="_blank" rel="noopener">Read on my blog</a>
-        </div>
+      <article class="card writing-card featured-writing">
+        <h3>Featured writings</h3>
+        <ul class="featured-links">
+          <li>
+            <a href="https://www.yohanneswrites.com/blog/why-you-should-date-a-tech-bro" target="_blank" rel="noopener">
+              Why you should date a tech bro
+            </a>
+            <span class="meta-note">Reflections on ambition, focus, and partnership with builders.</span>
+          </li>
+          <li>
+            <a href="https://www.yohanneswrites.com/blog/think-like-a-carpenter-act-like-an-ios-developer" target="_blank" rel="noopener">
+              Think like a carpenter, act like an iOS developer
+            </a>
+            <span class="meta-note">Craft values, constraints, and iterative delivery through a maker’s lens.</span>
+          </li>
+        </ul>
       </article>
-      <article class="card">
-        <h3>Distributing Swift packages with confidence</h3>
-        <p>Versioning, semantic tagging, and documentation workflows that keep consumers happy.</p>
-        <div class="meta">
-          <span>Swift Packages</span>
-          <a href="https://www.yohanenswrites.com" target="_blank" rel="noopener">Read on my blog</a>
+      <div class="card writing-card" aria-live="polite">
+        <div class="writing-feed" id="writing-feed">
+          <p class="loading">Fetching the latest posts from yohanneswrites.com…</p>
         </div>
-      </article>
-      <article class="card">
-        <h3>Designing onboarding that activates users</h3>
-        <p>Copy, progressive disclosure, and experiments that improve activation for consumer apps.</p>
-        <div class="meta">
-          <span>Growth</span>
-          <a href="https://www.yohanenswrites.com" target="_blank" rel="noopener">Read on my blog</a>
-        </div>
-      </article>
+      </div>
     </section>
 
     <section class="grid" id="contact" aria-labelledby="contact-title">
@@ -212,5 +218,88 @@
   <footer>
     <p>Yohannes Haile — iOS Software Engineer crafting Swift apps, SDKs, and growth-friendly experiences from Ethiopia.</p>
   </footer>
+
+    <script>
+      (function () {
+        const feedContainer = document.getElementById("writing-feed");
+        const featuredLinks = [
+          "https://www.yohanneswrites.com/blog/why-you-should-date-a-tech-bro",
+          "https://www.yohanneswrites.com/blog/think-like-a-carpenter-act-like-an-ios-developer",
+        ];
+
+        function renderPosts(posts) {
+          if (!feedContainer) return;
+
+          if (!posts.length) {
+            feedContainer.innerHTML = `
+              <article class="post">
+                <h3>More writing on yohanneswrites.com</h3>
+                <p>Browse the archive on yohanneswrites.com for additional essays and notes.</p>
+                <div class="meta">
+                  <a href="https://www.yohanneswrites.com/" target="_blank" rel="noopener">Visit the blog</a>
+                </div>
+              </article>
+            `;
+            return;
+          }
+
+          feedContainer.innerHTML = posts
+            .map(
+              (post) => `
+                <article class="post">
+                  <div class="post-meta">
+                    <span class="pill-label">${post.category || "iOS"}</span>
+                    <span>${post.date || "New"}</span>
+                  </div>
+                  <h3><a href="${post.link}" target="_blank" rel="noopener">${post.title}</a></h3>
+                  <p>${post.description}</p>
+                  <div class="meta">
+                    <a href="${post.link}" target="_blank" rel="noopener">Read on yohanneswrites.com</a>
+                  </div>
+                </article>
+              `
+            )
+            .join("");
+        }
+
+        function renderFallback() {
+          renderPosts([]);
+        }
+
+      async function fetchPosts() {
+        try {
+          const response = await fetch("https://yohanneswrites.com/rss.xml");
+          if (!response.ok) throw new Error("Network response was not ok");
+          const text = await response.text();
+          const parser = new DOMParser();
+          const xml = parser.parseFromString(text, "text/xml");
+          const items = Array.from(xml.querySelectorAll("item")).slice(0, 3);
+
+          if (!items.length) {
+            renderFallback();
+            return;
+          }
+
+          const posts = items
+            .map((item) => ({
+              title: item.querySelector("title")?.textContent?.trim() || "Latest from Yohannes",
+              link: item.querySelector("link")?.textContent?.trim() || "https://yohanneswrites.com",
+              category: item.querySelector("category")?.textContent?.trim() || "Writing",
+              date: item.querySelector("pubDate")?.textContent?.split(" ").slice(0, 4).join(" ") || "New",
+              description:
+                item.querySelector("description")?.textContent?.replace(/<[^>]+>/g, "")?.trim() ||
+                "Latest notes on iOS engineering and product growth.",
+            }))
+            .filter((post) => !featuredLinks.includes(post.link));
+
+          renderPosts(posts);
+        } catch (error) {
+          renderFallback();
+        }
+      }
+
+      fetchPosts();
+    })();
+  </script>
 </body>
 </html>
