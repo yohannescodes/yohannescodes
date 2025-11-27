@@ -13,7 +13,8 @@ Evaluate whether the current site structure is optimized to rank for queries aro
 - Robots and sitemap are clean: indexing is allowed globally, and the sitemap surfaces the homepage with the correct domain. 【F:robots.txt†L1-L5】【F:sitemap.xml†L1-L12】
 
 ### Gaps and risks
-- Canonical and sitemap entries now align to the GitHub Pages domain; if a branded domain is adopted later, cross-domain canonicals/redirects will be needed to preserve authority. 【F:blog/index.html†L7-L34】【F:sitemap.xml†L1-L13】
+- **Blog canonical** points to the external domain (`yohanneswrites.com`), so the `/blog` path on this site may not accrue credit for name/role queries and could dilute internal authority. 【F:blog/index.html†L5-L23】
+- The sitemap omits the `/blog` URL entirely, reducing crawl signals to the on-site writing index that mentions Yohannes Haile and iOS topics. 【F:sitemap.xml†L1-L12】
 - Internal linking is limited: nav links use fragments on the homepage, and there are no text links that explicitly combine "Yohannes Haile" with "iOS developer" beyond the hero. This can reduce anchor diversity and entity reinforcement.
 - There are no dedicated pages optimized for query variations like "iOS developer Ethiopia" or "Yohannes Haile portfolio"—the single-page structure limits targeting of long-tail terms.
 
@@ -25,8 +26,8 @@ Evaluate whether the current site structure is optimized to rank for queries aro
 5. **Ensure structured data includes the blog** (e.g., `BlogPosting` for key articles) if hosted locally; otherwise, link out with `sameAs` or `mainEntityOfPage` when cross-domain.
 
 ## Remediations implemented
-- **Canonical and Open Graph for /blog now point to yohannescodes.github.io** so the blog index resolves correctly on the live site and consolidates authority to the GitHub Pages host. 【F:blog/index.html†L7-L34】
-- **Sitemap now includes the on-site blog index on the deployed domain** to encourage crawling and association with the Yohannes Haile entity. 【F:sitemap.xml†L1-L13】
+- **Canonical and Open Graph for /blog now point to yohannescodes.com** so the blog index consolidates authority on the portfolio domain. 【F:blog/index.html†L7-L34】
+- **Sitemap now includes the on-site blog index** to encourage crawling and association with the Yohannes Haile entity. 【F:sitemap.xml†L1-L13】
 - **Internal anchor text links pair the name with the profession** and point to the blog from the nav, hero CTA, and footer for stronger entity reinforcement. 【F:index.html†L38-L43】【F:index.html†L55-L61】【F:index.html†L203-L208】
 
 ## Conclusion
