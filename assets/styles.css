@@ -1,16 +1,16 @@
 :root {
-  --bg: #030814;
-  --bg-glow: radial-gradient(circle at 20% 20%, rgba(124, 240, 255, 0.18), transparent 35%),
-    radial-gradient(circle at 80% 0%, rgba(156, 247, 199, 0.12), transparent 32%),
-    radial-gradient(circle at 50% 80%, rgba(110, 197, 255, 0.15), transparent 30%);
+  --bg: #050505;
+  --bg-glow: radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.08), transparent 35%),
+    radial-gradient(circle at 80% 0%, rgba(255, 255, 255, 0.06), transparent 32%),
+    radial-gradient(circle at 50% 80%, rgba(255, 255, 255, 0.04), transparent 30%);
   --glass: rgba(255, 255, 255, 0.06);
   --glass-strong: rgba(255, 255, 255, 0.14);
   --stroke: rgba(255, 255, 255, 0.22);
-  --text: #ecf2ff;
-  --muted: #aeb9d5;
-  --accent: linear-gradient(135deg, #7cf0ff, #9cf7c7 50%, #6ec5ff);
-  --accent-plain: #9cf7c7;
-  --shadow: 0 18px 55px rgba(3, 8, 20, 0.55);
+  --text: #f5f5f5;
+  --muted: #c8c8c8;
+  --accent: linear-gradient(135deg, #ffffff, #d9d9d9 50%, #f0f0f0);
+  --accent-plain: #e6e6e6;
+  --shadow: 0 18px 55px rgba(0, 0, 0, 0.65);
   --blur: blur(22px);
   --radius: 18px;
 }
@@ -96,8 +96,8 @@ nav .pill {
   gap: 8px;
   padding: 10px 14px;
   border-radius: 999px;
-  background: linear-gradient(180deg, rgba(156, 247, 199, 0.14), rgba(110, 197, 255, 0.08));
-  border: 1px solid rgba(156, 247, 199, 0.4);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.04));
+  border: 1px solid rgba(255, 255, 255, 0.2);
   color: var(--text);
   font-size: 13px;
   letter-spacing: 0.2px;
@@ -128,8 +128,8 @@ nav li a {
 
 nav li a:hover,
 nav li a:focus-visible {
-  border-color: rgba(156, 247, 199, 0.5);
-  background: rgba(156, 247, 199, 0.08);
+  border-color: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.08);
   color: var(--text);
 }
 
@@ -156,8 +156,8 @@ nav li a:focus-visible {
   content: "";
   position: absolute;
   inset: 0;
-  background: radial-gradient(circle at 20% 20%, rgba(156, 247, 199, 0.15), transparent 40%),
-    radial-gradient(circle at 85% 10%, rgba(110, 197, 255, 0.18), transparent 35%);
+  background: radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.14), transparent 40%),
+    radial-gradient(circle at 85% 10%, rgba(255, 255, 255, 0.12), transparent 35%);
   pointer-events: none;
 }
 
@@ -165,8 +165,8 @@ nav li a:focus-visible {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  background: rgba(124, 240, 255, 0.12);
-  border: 1px solid rgba(156, 247, 199, 0.4);
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.2);
   color: var(--text);
   padding: 10px 14px;
   border-radius: 14px;
@@ -200,13 +200,13 @@ nav li a:focus-visible {
   align-items: center;
   gap: 10px;
   padding: 14px 18px;
-  border-radius: 14px;
+  border-radius: 6px;
   border: 1px solid rgba(255, 255, 255, 0.16);
   background-image: var(--accent);
-  color: #032c2b;
+  color: #0b0b0b;
   font-weight: 800;
   text-decoration: none;
-  box-shadow: 0 14px 35px rgba(124, 240, 255, 0.25);
+  box-shadow: 0 14px 35px rgba(0, 0, 0, 0.35);
   letter-spacing: 0.1px;
   position: relative;
   overflow: hidden;
@@ -235,7 +235,7 @@ nav li a:focus-visible {
 
 .button::before {
   background: radial-gradient(circle at 35% 30%, rgba(255, 255, 255, 0.22), transparent 38%),
-    radial-gradient(circle at 70% 60%, rgba(156, 247, 199, 0.35), transparent 45%);
+    radial-gradient(circle at 70% 60%, rgba(255, 255, 255, 0.28), transparent 45%);
   mix-blend-mode: screen;
   opacity: 0;
   filter: blur(0.5px);
@@ -249,8 +249,8 @@ nav li a:focus-visible {
 
 .button:hover,
 .button:focus-visible {
-  border-color: rgba(156, 247, 199, 0.6);
-  box-shadow: 0 18px 40px rgba(124, 240, 255, 0.32);
+  border-color: rgba(255, 255, 255, 0.6);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.45);
   animation: button-bounce 720ms cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 
@@ -330,8 +330,8 @@ nav li a:focus-visible {
   align-items: center;
   padding: 6px 10px;
   border-radius: 999px;
-  background: rgba(156, 247, 199, 0.12);
-  border: 1px solid rgba(156, 247, 199, 0.25);
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.22);
   color: var(--text);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);
 }
@@ -349,7 +349,7 @@ nav li a:focus-visible {
   content: "";
   position: absolute;
   inset: 0;
-  background: radial-gradient(circle at 90% 0%, rgba(156, 247, 199, 0.12), transparent 45%);
+  background: radial-gradient(circle at 90% 0%, rgba(255, 255, 255, 0.08), transparent 45%);
   pointer-events: none;
 }
 
@@ -409,7 +409,7 @@ footer {
   height: 4px;
   background: var(--accent);
   border-radius: 99px;
-  box-shadow: 0 8px 20px rgba(124, 240, 255, 0.35);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
 }
 
 @keyframes button-bounce {
