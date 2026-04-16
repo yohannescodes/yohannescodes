@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "https://garage-os-backend-alpha.vercel.app/api/:path*"
+    }
+  ]
+}
