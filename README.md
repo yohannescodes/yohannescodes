@@ -9,8 +9,6 @@
 
 - 🌱 I’m currently learning **SwiftUI**
 
-- 👯 I’m looking to collaborate on ledgerly
-
 - 💬 Ask me about **iOS apps and frameworks development**
 
 - 📫 How to reach me **yohannesakhaile@gmail.com**
